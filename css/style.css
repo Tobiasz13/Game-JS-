@@ -1,0 +1,108 @@
+
+.text-center {
+  text-align: center;
+}
+
+.spans {
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.stone-span {
+  background: #3f575f;
+}
+
+.paper-span {
+    background: #b2cebb;
+    color: black;
+}
+
+.scissors-span {
+  background: #ad3131;
+}
+
+.style-title {
+  text-align: center;
+  font-family: inherit;
+  font-size: 35px;
+}
+
+.row-center1 {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row-center2 {
+    width: 20%;
+    display: flex;
+}
+
+.player-pick-button-center {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 12px;
+    border-radius: 4px;
+    border: none;
+    width: 90px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.badge {
+    font-size: 20px;
+}
+
+#js-playerPoints, #js-computerPoints {
+    background: #060505;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+    margin: 0 5 0 5;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    height: 30px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+#js-resultWinner {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: fantasy;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#js-newGameButton {
+    background: #f6f6ff;
+    font-family: sans-serif;
+    color: #111115;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#js-newGameButton:hover {
+    background: #efefef;
+    text-decoration: none;
+    color: #585757;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#js-newGameButton:focus {
+    outline: none;
+}
