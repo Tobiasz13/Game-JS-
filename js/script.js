@@ -136,12 +136,12 @@ function setGamePoints() {
 }
 
 function checkResult () {
-    if (computer.score == 10) {
+    if (computer.score == 5) {
         computerResultElem.innerHTML = 'Zwyciężca Computer';
         gameState = 'ended'
         resultWinner.innerText = computerResultElem.innerHTML;
         setGameElements()
-    } else if (player.score == 10) {
+    } else if (player.score == 5) {
         playerResultElem.innerHTML = 'Zwyciężca '+ player.name;
         gameState = 'ended'
         resultWinner.innerText = playerResultElem.innerHTML;
